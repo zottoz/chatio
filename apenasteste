@@ -1,0 +1,12 @@
+total 72
+drwxr-xr-x  4 denis denis  4096 Jul 29 19:04 .
+drwxr-x--- 14 denis denis  4096 Jul 29 19:02 ..
+drwxr-xr-x  8 denis denis  4096 Jul 29 19:02 .git
+-rw-r--r--  1 denis denis    14 Jul 29 19:02 .gitignore
+-rw-r--r--  1 denis denis    12 Jul 29 19:02 README.md
+-rw-r--r--  1 denis denis     0 Jul 29 19:04 apenasteste
+-rw-r--r--  1 denis denis   513 Jul 29 19:02 index.html
+-rw-r--r--  1 denis denis 34371 Jul 29 19:02 package-lock.json
+-rw-r--r--  1 denis denis   301 Jul 29 19:02 package.json
+drwxr-xr-x  2 denis denis  4096 Jul 29 19:02 public
+-rw-r--r--  1 denis denis   779 Jul 29 19:02 servidor.js

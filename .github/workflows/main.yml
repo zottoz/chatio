@@ -1,0 +1,22 @@
+name: CI - Push para chatio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar o repositório
+        uses: actions/checkout@v2
+
+      - name: Mostrar mensagem de push
+        run: echo "Push detectado! Workflow executado com sucesso."
+
+      - name: Mostrar data e branch
+        run: |
+          echo "Data: $(date)"
+          echo "Branch: ${{ github.ref }}"
